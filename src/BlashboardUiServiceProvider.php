@@ -5,6 +5,8 @@ namespace Jcgdev\BlashboardUi;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
+use Illuminate\Pagination\Paginator;
+
 class BlashboardUiServiceProvider extends ServiceProvider
 {
 
@@ -19,6 +21,8 @@ class BlashboardUiServiceProvider extends ServiceProvider
         ], 'blashboard-ui-bladeComponents');
 
         Blade::componentNamespace('Jcgdev\\BlashboardUi\\Views\\Components', 'blashboard');
+
+        Paginator::defaultView('blashboard-ui::pagination.pagination');
 
     }
 
