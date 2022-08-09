@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/JoseCGDEV/Blashboard-uiComponents" target="_blank"><img src="https://raw.githubusercontent.com/JoseCGDEV/Blashboard-uiComponents/d8d110293703980362a7b30ac1bea7e6f895e6d8/logo.svg" width="400"></a></p>
+<p align="center"><a href="https://github.com/JoseCGDEV/Blashboard-uiComponents" target="_blank"><img src="https://raw.githubusercontent.com/JoseCGDEV/Blashboard-uiComponents/6fd5ab69a7388bdb8d5ee2dbbbcf123e63c5a860/logo.svg" width="400"></a></p>
 
 <p align="center">
     🚀Create your next interfaces in an easier way..
