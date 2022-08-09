@@ -1,0 +1,50 @@
+{
+    "name": "jcgdev/blashboard-ui",
+    "description": "Blashboard is a package for Laravel created to provide interactive elements for your dashboard projects using native blade components and other libraries to make dashboard creation easy.",
+    "keywords": ["laravel", "ui", "dashboard", "components", "blashboard"],
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "José Manuel",
+            "email": "96880581+JoseCGDEV@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jcgdev\\BlashboardUi\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jcgdev\\BlashboardUi\\Tests\\" : "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "livewire/livewire": "^2.10"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.6"
+    },
+    
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "laravel" : {
+            "providers" : [
+                "Jcgdev\\BlashboardUi\\BlashboardUiServiceProvider",
+                "Jcgdev\\BlashboardUi\\RouteServiceProvider"
+            ],
+            "aliases" : {
+                "BlashboardUi" : "Jcgdev\\BlashboardUi\\Facades\\BlashboardUi"
+            }
+        }
+    },
+
+    
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+}
