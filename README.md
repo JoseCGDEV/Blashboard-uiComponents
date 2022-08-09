@@ -1,5 +1,7 @@
 # Blashboard-uiComponents
 
+<p align="center"><a href="https://github.com/JoseCGDEV/Blashboard-uiComponents" target="_blank"><img src="https://raw.githubusercontent.com/JoseCGDEV/Blashboard-uiComponents/500857199542d7279c48ba1a214b2e047a01588f/Blashboard-logo.svg" width="400"></a></p>
+
 <p align="center">
     🚀Create your next interfaces in an easier way..
 </p>
