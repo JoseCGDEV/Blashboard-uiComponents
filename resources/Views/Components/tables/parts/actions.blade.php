@@ -1,4 +1,4 @@
-@php $key = $config['key'] == '' ? $config['key'] : $config['key'] = 'id'; @endphp
+@php $key = $config['key'] != '' ? $config['key'] : $config['key'] = 'id'; @endphp
 
 @switch($action)
     @case('edit')
