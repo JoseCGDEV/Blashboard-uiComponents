@@ -65,7 +65,17 @@ class Table extends Component
             $this->config['actions'] = false;
         }
 
-        return view('blashboard-ui::components.tables.table');
+
+        switch($this->type){
+            case 'datatable':
+                return view('blashboard-ui::components.tables.datatable.index');
+                break;
+            default: 
+                return view('blashboard-ui::components.tables.default.index');
+                break;
+        }
+
+        
     }
 
 }

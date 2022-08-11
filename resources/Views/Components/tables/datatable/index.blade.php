@@ -1,24 +1,22 @@
 
-@include('blashboard-ui::components.tables.parts.template')
+@include('blashboard-ui::components.tables.datatable.parts.template')
 
 
 <script>
 
-    let core = {!! json_encode($config['core']) !!};
-
-    if( core == 'datatable'){
+    console.log(data);
                 
         let id = {!! json_encode(isset($id) ? $id : '') !!};
         let table = new DataTable('#'+id, {
             paging: false,
             info: false,
+            data: data,
+            columns: colums
         });
 
         document.getElementById('Search_'+id).addEventListener('keyup', function(e) {
             table.search($(this).val()).draw() ;
         }); 
-
-    }
 
             
 
@@ -31,5 +29,10 @@
         text-align: right;
         visibility: hidden;
         display: none;
+    }
+    .btn-primary{
+        padding: 2px 5px;
+        background: red;
+        color: #fff;
     }
 </style>
